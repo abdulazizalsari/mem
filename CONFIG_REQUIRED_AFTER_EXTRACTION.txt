@@ -1,0 +1,2 @@
+The original private/config.php was intentionally excluded because it contains environment/database credentials.
+Create private/config.php from private/config.sample.php and fill in this deployment's own values before running the site.

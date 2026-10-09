@@ -1,0 +1,22 @@
+# Deployment-local secrets and environment overrides
+/private/config.php
+/.env
+/.env.*
+!/.env.example
+
+# User-generated and private runtime data
+/uploads/*
+!/uploads/.keep
+!/uploads/.htaccess
+/storage/evidence/*
+!/storage/evidence/.htaccess
+/storage/backups/*
+!/storage/backups/.keep
+!/storage/backups/.htaccess
+/storage/logs/*
+
+# Local tooling/editor files
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
